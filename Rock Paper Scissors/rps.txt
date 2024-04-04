@@ -1,0 +1,23 @@
+//main.c
+#include "Games/rps.h"
+
+int main() {
+    srand(time(NULL));
+    work_on_input();
+    random_choice();
+    compare_choice();
+    another_round();
+    return 0;
+}
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <time.h>
+#define LIMIT 256
+
+int work_on_input(void);
+int random_choice(void);
+void compare_choice(void);
+void another_round(void);
