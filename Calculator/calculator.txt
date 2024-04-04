@@ -1,0 +1,11 @@
+- Have a simple calc program. The program calculates only 2 inputs and give the option for the operation(add, subtract, multiply, divide, power)  
+- Add a go back feature, switching between current, previos and main(starting point)
+- Add a exit button, where the user can press something, like EOF to immidietly end the program.
+- Add fail saftey feauture, when pressed eof.
+
+#include "Games/calculator.h"
+
+int main(){
+    calculatorfunction();
+    return 0;
+}
