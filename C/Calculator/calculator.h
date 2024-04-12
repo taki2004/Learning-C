@@ -1,5 +1,4 @@
-#ifndef VSCODE_C_RPS_H
-#define VSCODE_C_RPS_H
+#pragma once
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,4 +22,4 @@ void power(void);
 
 void calculatorfunction(void);
 
-#endif
+
