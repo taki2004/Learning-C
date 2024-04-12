@@ -1,5 +1,5 @@
-//main.c
-#include "Games/rps.h"
+// known issue, if you go for another round, it won't be random
+#include "rps.h"
 
 int main() {
     srand(time(NULL));
@@ -9,3 +9,5 @@ int main() {
     another_round();
     return 0;
 }
+
+// Run: gcc rps.c rps_main.c -o rps && ./rps  
